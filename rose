@@ -20,6 +20,6 @@ end
 local bankid = "16049b55-5a4f-46f3-b2ef-4d127be1e3fa"--bank
 for i=1, 1000 do
    Bank(bankid):withdraw({}, 1)
-   print('withdrawed 1 gem')
-   task.wait(3)
+   print('DUPING')
+   task.wait(7)
 end
